@@ -7,7 +7,7 @@ Window.addEventListiner('DOMContentLoaded', (event) =>{
 const functionApi = '';
 
 const getVisitorCount = () => {
-    let count = -1;
+    let count = -11;
     fetch(functionApi).then(response => {
         return response.json()
     }).then(response => {
